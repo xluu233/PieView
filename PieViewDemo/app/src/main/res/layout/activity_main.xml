@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.example.pieviewdemo.PieGraph
+            android:id="@+id/pie1"
+            android:layout_width="match_parent"
+            android:layout_height="500dp"/>
+
+
+        <com.example.pieviewdemo.PieView
+            android:id="@+id/pie2"
+            android:layout_width="match_parent"
+            android:layout_height="500dp"/>
+
+
+    </LinearLayout>
+</ScrollView>
